@@ -7,16 +7,15 @@ public class estruturaCondicional {
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("****** SISTEMA DE CALCULO DE  MEDIA ALUNOS *******");
-		/* solicitando primeira nota*/
+		/* solicitando  notas*/
 		System.out.println("digite a primeira nota: ");
 		int nota1 = scanner.nextInt();
-		/*solicitando segunda nota*/
 		System.out.println("digite a segunda nota: ");
 		int nota2 = scanner.nextInt();
 		System.out.println("digite a terceira nota: ");
 		int nota3 = scanner.nextInt();
 		double mediaFinal = (nota1+nota2+nota3)/3;
-		
+		/*estipulando condições*/
 		if (mediaFinal >= 7){
 			System.out.println("você está aprovado, e sua media e: " + mediaFinal);						
 	}	
