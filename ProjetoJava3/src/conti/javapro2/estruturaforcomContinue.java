@@ -7,6 +7,8 @@ public class estruturaforcomContinue {
 				System.out.println("encontrei o numero "+numero);}
 			continue;
 			}
-	}
+	}}
 
-}
+/* com essa estrutura, também podemos usar o break, para parar quando encontrarmos
+ * algum valor que queiramos*/
+ 
