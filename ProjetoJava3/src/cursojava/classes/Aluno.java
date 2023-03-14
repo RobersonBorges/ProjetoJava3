@@ -20,4 +20,9 @@ public class Aluno {
 	public Aluno () {
 		
 	}
+	/* metodo set e get dos objetos*/
+	/*set adiciona ou recebe dados para os atributos */
+	/*get resgata ou obtem o valor do atributo*/
+	
+	
 }
