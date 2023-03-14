@@ -14,6 +14,10 @@ public class ClasseExecutavel {
 		aluno2.nome = "roberson";
 		Aluno aluno3 = new Aluno();
 		aluno3.setNome("leo");
+		aluno3.setCpf("05464871306");
+		aluno3.setDatadaMatricula("18/03/2022");
+		aluno3.setGenero("Masculino");
+		aluno3.setIdade(29);
 		System.out.println("o nome do aluno 3 é: " +aluno3.getNome());
 		
 		
