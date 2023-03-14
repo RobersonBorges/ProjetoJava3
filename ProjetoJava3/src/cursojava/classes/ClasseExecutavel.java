@@ -20,6 +20,11 @@ public class ClasseExecutavel {
 		aluno3.setIdade(29);
 		System.out.println("o nome do aluno 3 é: " +aluno3.getNome());
 		
-		
+		aluno2.setNota1(8.8);
+		aluno2.setNota2(9);
+		aluno2.setNota3(7);
+		aluno2.setNota4(8.5);
+		System.out.println("a media do " +aluno2.getNome() +"é " +aluno2.getMediaNota());
+	
 	}
 }
