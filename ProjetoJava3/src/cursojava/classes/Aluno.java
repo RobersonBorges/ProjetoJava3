@@ -23,6 +23,12 @@ public class Aluno {
 	/* metodo set e get dos objetos*/
 	/*set adiciona ou recebe dados para os atributos */
 	/*get resgata ou obtem o valor do atributo*/
+	/* metodo set é para adicionar valor ao atributo, o this, é para apontar para o atributo nome*/
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 	
-	
+	public String getNome() {
+		return nome;
+	}	
 }
